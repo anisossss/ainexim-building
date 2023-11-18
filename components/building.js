@@ -7,7 +7,7 @@ import { DogContainer } from './building-loader'
 const VoxelDog = () => {
   const refContainer = useRef()
   const refRenderer = useRef()
-  const urlDogGLB = '/modern_office_building.glb'
+  const urlDogGLB = '/office_computer.glb'
 
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {

@@ -1,6 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
 
-export default function Chakra({ cookies, children }) {
+export default function Chakra({ children }) {
   return <ChakraProvider>{children}</ChakraProvider>
 }
 

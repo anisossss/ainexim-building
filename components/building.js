@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from 'react'
+import { useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
@@ -63,7 +63,6 @@ const VoxelDog = () => {
       })
 
       let req = null
-      let frame = 0
       const animate = () => {
         req = requestAnimationFrame(animate)
 

@@ -25,10 +25,6 @@ const Main = ({ children }) => {
         <LazyVoxelDog2 />
         {children}
       </Container>
-      <Container maxW="container.md" pt={14}>
-        <LazyVoxelDog />
-        {children}
-      </Container>
     </Box>
   )
 }

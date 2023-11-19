@@ -3,7 +3,6 @@ import dynamic from 'next/dynamic'
 import { Box, Container } from '@chakra-ui/react'
 import VoxelDogLoader from '../building-loader'
 import VoxelDogLoader2 from '../building-loader2'
-import VoxelDogLoader3 from '../building-loader3'
 
 const LazyVoxelDog = dynamic(() => import('../building'), {
   ssr: false,
